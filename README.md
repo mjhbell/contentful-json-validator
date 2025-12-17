@@ -69,14 +69,13 @@ You need to register your code as an App within Contentful so it can be assigned
     * Give it a name (e.g., "Dynamic JSON Validator").
 
 2.  **Configure Frontend:**
-    * Under **App URL**, enter your hosting URL:
-        * *For development:* `http://localhost:3000`
-        * *For production:* Your hosted URL (e.g., Netlify/Vercel link).
+    * Under **General**, enable 'Hosted by Contentful'.
 
 3.  **Set Locations:**
     * Scroll to **App Locations**.
     * Check **Entry field**.
     * In the dropdown, select **JSON Object**. This ensures the app only appears for JSON fields.
+    * Check the **Entry Editor**
 
 4.  **Define Instance Parameters:**
     * Scroll to **Instance Parameters**.
