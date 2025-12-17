@@ -1,6 +1,6 @@
 # Contentful Dynamic JSON Schema Validator
 
-A custom Contentful App that provides a JSON Code Editor with real-time validation. Unlike standard validators, this app **dynamically fetches the validation schema** from a sibling Reference field.
+A custom Contentful App that provides JSON Schema validation of JSON Object fields. Unlike standard validators, this app **dynamically fetches the validation schema** from a sibling Reference field.
 
 This allows content editors to select a "Schema" entry (e.g., "Product Schema", "Config Schema") from a dropdown, and the JSON editor immediately enforces that specific schema's rules.
 
